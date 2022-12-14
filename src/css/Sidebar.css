@@ -1,24 +1,19 @@
-.side-navbar {
-  display: block;
-  width: 17%;
+.side-navbar-container {
   height: 100%;
   background-color: #1abc9c;
-  color: #fff;
-  font-weight: 700;
-  position: fixed;
-  overflow-x: hidden;
-  font-size: 1.1rem;
-
 }
 
+
 .side-bar-group {
-  margin-top: 0px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: left;
-  height: 60%;
+  height: 500px;
+  background-color: #1abc9c;
+  color: #fff;
+  font-weight: 600;
 }
 
 .side-bar {
@@ -28,6 +23,8 @@
   display: flex;
   align-items: center;
   padding-left: 20px;
+  cursor: pointer;
+
 }
 
 .side-bar:hover {

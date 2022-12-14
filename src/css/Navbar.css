@@ -12,7 +12,6 @@ ul {
   height: 3.5rem;
   background-color: #dff9fb;
   position: fixed;
-  top: 0;
 }
 
 
@@ -197,4 +196,18 @@ a {
   }
 }
 
+@media only screen and (max-width: 576px) {
+  .btn-NA{
+    display: none;
+  }
+  .icon-grip{
+    display: none;
+  }
+  .building-resp{
+    display: none;
+  }
+  .split-line{
+    display: none;
+  }
+}
 /* 768px 576px */

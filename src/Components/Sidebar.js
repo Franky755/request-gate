@@ -18,12 +18,12 @@ const Sidebar = () => {
   return (
     // side navbar
 
-    <div className='side-navbar'>
+    <div className='side-navbar-container'>
 
       {/* side-bar-group */}
       <div className='side-bar-group'>
 
-        <div className=' side-bar navbar-toggle'>
+        <div className='side-bar navbar-toggle'>
           <FontAwesomeIcon
             className='icon icon-menu menu-link'
             icon={faBars}

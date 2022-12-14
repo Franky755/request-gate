@@ -49,11 +49,13 @@ const Navbar = () => {
           avatar='https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ'
         />
         <FontAwesomeIcon className='icon' icon={faCaretDown} size='lg' color='#60a3bc' />
-        <img src="https://static.thenounproject.com/png/1729054-200.png"
+        <img
+          className='split-line'
+          src="https://static.thenounproject.com/png/1729054-200.png"
           alt="split line"
           width={35}
         />
-        <FontAwesomeIcon className='icon icon-building' icon={faBuilding} size='lg' color='#60a3bc' />
+        <FontAwesomeIcon className='icon icon-building building-resp' icon={faBuilding} size='lg' color='#60a3bc' />
         <button className='btn btn-NA'>NA</button>
         <FontAwesomeIcon className='icon icon-grip' icon={faGrip} size='lg' color='#60a3bc' />
       </div>

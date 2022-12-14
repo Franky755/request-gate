@@ -1,6 +1,11 @@
 .header-container{
-  height: 400px;
-  display: inline-block;
+  height: 50px;
+  width: 100%;
   text-align: center;
-  background-color: aqua;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
+
