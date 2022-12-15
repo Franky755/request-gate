@@ -95,7 +95,6 @@ a {
   position: relative;
 }
 
-
 .search-box {
   height: 1.4rem;
   border-radius: 15px;
@@ -109,6 +108,13 @@ a {
 
 .search-box:hover {
   width: 70%;
+}
+
+.split-line {
+  border-right: 1.5px solid #ccc;
+  height: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .icon-magnifying {
@@ -197,17 +203,21 @@ a {
 }
 
 @media only screen and (max-width: 576px) {
-  .btn-NA{
+  .btn-NA {
     display: none;
   }
-  .icon-grip{
+
+  .icon-grip {
     display: none;
   }
-  .building-resp{
+
+  .building-resp {
     display: none;
   }
-  .split-line{
+
+  .split-line {
     display: none;
   }
 }
+
 /* 768px 576px */

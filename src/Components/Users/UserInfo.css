@@ -1,0 +1,73 @@
+.user-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  justify-content: space-around;
+  margin-top: 15.5px;
+}
+
+.hori-line{
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid #0a3d62;
+}
+
+.user-ava {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+.user-ava:hover {
+  -webkit-box-shadow: 0px 0px 1px 9px #82CCDD;
+  box-shadow: 0px 0px 1px 3px #82CCDD;
+}
+
+.status-on {
+  border: 2px solid #1dd1a1;
+  width: 30px;
+  height: 30px;
+}
+
+
+.dialog-ava {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.detail-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.user{
+  cursor: pointer;
+
+}
+
+.user:hover{
+  text-decoration: underline;
+  color:#fff;
+}
+.user-name{
+  font-weight: 700;
+}
+
+.user-email{
+  margin-top: 7px;
+}

@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../css/Sidebar.css';
-import { faBars, faBookAtlas, faBuildingUser, faChartBar, faChartColumn, faChartGantt, faColumns, faGear, faHome, faKaaba, faList, faList12, faListAlt, faListCheck, faListSquares, faListUl, faPeopleGroup, faPlus, faPlusSquare, faProjectDiagram, faSuitcase, faTableList, faUser } from '@fortawesome/free-solid-svg-icons';
+import './Sidebar.css';
+
+import { faBars, faBuildingUser, faChartGantt, faColumns, faGear, faHome, faKaaba, faList, faList12, faListAlt, faListCheck, faListSquares, faListUl, faPeopleGroup, faPlus, faPlusSquare, faProjectDiagram, faSuitcase, faTableList, faUser } from '@fortawesome/free-solid-svg-icons';
 import WebFont from 'webfontloader';
 
 const Sidebar = () => {

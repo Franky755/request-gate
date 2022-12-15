@@ -1,0 +1,117 @@
+.header-container {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 700;
+  padding-left: 20px;
+  color: #222f3e;
+}
+
+#header-icon {
+  color: #1abc9c;
+  background-color: #dff9fb;
+}
+
+.space {
+  margin-left: 5px;
+  font-size: 0.8rem;
+}
+
+/* HEADER CONTAINER */
+
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+/* header left */
+
+.header-left {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* HEADER RIGHT */
+
+.header-right {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
+  align-items: center;
+}
+
+
+.user-status-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.btn-gr-hidden {
+  width: 34px;
+  height: 34px;
+
+  margin-right: 10px;
+  border: 2px solid #1dd1a1;
+  border-radius: 30px;
+  background-color: #dff9fb;
+}
+
+
+.btn-invite-user {
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.search-user {
+  width: 0px;
+  height: 27px;
+}
+
+.search-user:hover {
+  width: 100px;
+}
+
+
+/* responsive 1200px 888px 576px*/
+
+@media only screen and (max-width: 1200px) {
+  .status-resp{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 888px) {
+  .btn-invite-user{
+    display: none;
+  }
+  .space{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+#header-icon{
+  display: none;
+}
+}
